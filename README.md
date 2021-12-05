@@ -6,7 +6,7 @@ JSON Rep for HW2 @ Ksendzov Course
 3. На против каждого действия - напишите команду в GitBash
 4. Создать внешний репозиторий c названием JSON.
 - Command: cd /Users/macintosh/Desktop/CODING/KSENDZOV/HW2
-6. Клонировать репозиторий JSON на локальный компьютер.
+5. Клонировать репозиторий JSON на локальный компьютер.
 - Command: git clone https://github.com/PaulBuzz/JSON
 - Result: Клонирование в «JSON»…
 - remote: Enumerating objects: 3, done.
