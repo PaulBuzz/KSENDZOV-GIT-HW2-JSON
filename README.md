@@ -88,5 +88,3 @@ To https://github.com/PaulBuzz/JSON
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  20. Синхронизировать внешний и локальный репозиторий JSON
 Command: git pull
-
-![image](https://user-images.githubusercontent.com/84155505/144757258-db3ac73c-206d-46bf-8bff-02e2ef6bde80.png)
