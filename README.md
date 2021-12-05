@@ -5,24 +5,24 @@ JSON Rep for HW2 @ Ksendzov Course
 2. Сценарий перенесите в этот файл.
 3. На против каждого действия - напишите команду в GitBash
 4. Создать внешний репозиторий c названием JSON.
-Command: cd /Users/macintosh/Desktop/CODING/KSENDZOV/HW2
+- Command: cd /Users/macintosh/Desktop/CODING/KSENDZOV/HW2
 6. Клонировать репозиторий JSON на локальный компьютер.
-Command: git clone https://github.com/PaulBuzz/JSON
-Result: Клонирование в «JSON»…
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+- Command: git clone https://github.com/PaulBuzz/JSON
+- Result: Клонирование в «JSON»…
+- remote: Enumerating objects: 3, done.
+- remote: Counting objects: 100% (3/3), done.
+- remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 6. Внутри локального JSON создать файл “new.json”.
-Command: cd JSON
-Command: touch new.json
+- Command: cd JSON
+- Command: touch new.json
 7. Добавить файл под гит.
-Command: git add “new.json”
+- Command: git add “new.json”
 8. Закоммитить файл.
-Command: git commit -m “commiting JSON to our rep”
+- Command: git commit -m “commiting JSON to our rep”
 9. Отправить файл на внешний GitHub репозиторий.
-Command: git push
+- Command: git push
 10. Отредактировать содержание файла “new.json” – написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-Command: vim new.json
+- Command: vim new.json
 {
     "NSF": {"name": "Pavel",
     "surname": "Buzin",
@@ -32,10 +32,10 @@ Command: vim new.json
     "desired_salary": 6000
 }
  11. Отправить изменения на внешний репозиторий.
-Command: git push
-Result: Перечисление объектов: 5, готово.
-Подсчет объектов: 100% (5/5), готово.
-При сжатии изменений используется до 8 потоков
+- Command: git push
+- Result: Перечисление объектов: 5, готово.
+- Подсчет объектов: 100% (5/5), готово.
+- При сжатии изменений используется до 8 потоков
 Сжатие объектов: 100% (3/3), готово.
 Запись объектов: 100% (3/3), 394 байта | 394.00 КиБ/с, готово.
 Всего 3 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
