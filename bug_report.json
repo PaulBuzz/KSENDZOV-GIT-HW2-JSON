@@ -4,6 +4,6 @@
             "STEP_3": "CLICK ON SETTINGS BUTTON -> ADD USER",
             "STEP_4": "ADD ANY USER TO THE CONVERSATION",
             "STEP_5": "TRY TO RENAME THIS GROUP CONVERSATION"
-           }
+           },
   "ACTUAL RESULT": "RENAME BUTTON IS DISABLED"
 }
