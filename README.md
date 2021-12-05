@@ -5,23 +5,23 @@ JSON Rep for HW2 @ Ksendzov Course
 cd /Users/macintosh/Desktop/CODING/KSENDZOV/HW2
 
 JSON
- 4. Создать внешний репозиторий c названием JSON.
- 5. Клонировать репозиторий JSON на локальный компьютер.
+4. Создать внешний репозиторий c названием JSON.
+5. Клонировать репозиторий JSON на локальный компьютер.
 Command: git clone https://github.com/PaulBuzz/JSON
 Result: Клонирование в «JSON»…
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
- 6. Внутри локального JSON создать файл “new.json”.
+6. Внутри локального JSON создать файл “new.json”.
 Command: cd JSON
 Command: touch new.json
- 7. Добавить файл под гит.
+7. Добавить файл под гит.
 Command: git add “new.json”
- 8. Закоммитить файл.
+8. Закоммитить файл.
 Command: git commit -m “commiting JSON to our rep”
- 9. Отправить файл на внешний GitHub репозиторий.
+9. Отправить файл на внешний GitHub репозиторий.
 Command: git push
- 10. Отредактировать содержание файла “new.json” – написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+10. Отредактировать содержание файла “new.json” – написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 Command: vim new.json
 {
     "NSF": {"name": "Pavel",
@@ -40,9 +40,9 @@ Result: Перечисление объектов: 5, готово.
 Запись объектов: 100% (3/3), 394 байта | 394.00 КиБ/с, готово.
 Всего 3 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
 To https://github.com/PaulBuzz/JSON
- 12. Создать файл preferences.json
+12. Создать файл preferences.json
 Command: touch preferences.json
- 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 Command: vim preferences.json
 {
     "fav_movie": "25th_hour",
@@ -51,7 +51,7 @@ Command: vim preferences.json
     "fav_season": "Autumn",
     "country_to_visit": "Denmark"
 }
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 Command: skills.json
 Command: vim skills.json
 {
@@ -66,7 +66,7 @@ Command: vim skills.json
     "skill_9": "XCODE",
     "skill_10": "QA_Theory"
 }
- 15. Отправить сразу 2 файла на внешний репозиторий.
+15. Отправить сразу 2 файла на внешний репозиторий.
 Command: git add .
 Command: git commit preferences.json skills.json -m “adding two files to the rep”
 Result: [main 13ad22a] adding commits to 2 files
@@ -82,9 +82,9 @@ Result:
 Запись объектов: 100% (4/4), 596 байтов | 596.00 КиБ/с, готово.
 Всего 4 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
 To https://github.com/PaulBuzz/JSON
- 16. На веб интерфейсе создать файл bug_report.json.
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
- 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 20. Синхронизировать внешний и локальный репозиторий JSON
+16. На веб интерфейсе создать файл bug_report.json.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+20. Синхронизировать внешний и локальный репозиторий JSON
 Command: git pull
