@@ -7,8 +7,8 @@
 - Command: cd /Users/macintosh/Desktop/CODING/KSENDZOV/HW2
 - Перемещаемся в папку, куда будем клонировать репозиторий, который мы только что создали.
 4. Создать внешний репозиторий c названием JSON. 
-- ![Create Repository 1](https://www.dropbox.com/s/8nu7577ht3yem9o/JSON01.jpg?dl=0)
-- ![Create Repository 2](https://www.dropbox.com/s/t565836vk8l0sqr/JSON02.jpg?dl=0)
+- ![Create Repository 1]<img width="1002" alt="JSON01" src="https://user-images.githubusercontent.com/84155505/144819547-5eb8e39e-026a-47ef-b2f5-14c4756bf5e4.png">
+- ![Create Repository 2]<img width="747" alt="JSON02" src="https://user-images.githubusercontent.com/84155505/144819624-d26b071d-c661-4fdd-a167-9f03f53e444b.png">
 5. Клонировать репозиторий JSON на локальный компьютер.
 - Command: git clone https://github.com/PaulBuzz/JSON
 - Result: Клонирование в «JSON»…
